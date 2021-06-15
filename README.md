@@ -1,1 +1,1 @@
-Create a method that takes in an array of stock prices. Afterwards, return a pair of days that reflect which day is best to buy and sell for the most profit.
+Create a method that takes in an array of stock prices, one for each day. Afterwards, return a pair of days that reflect which day is best to buy and sell for the most profit. First day is 0, second day is 1, etc.
