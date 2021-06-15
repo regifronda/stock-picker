@@ -1,5 +1,10 @@
+require 'pry'
 # create a method with one argument
 def stock_picker(stock_prices)
+  best_days = []
+  
+  binding.pry
+
 end
 # the argument is an array of stock prices, one for each day
 # iterate through the array. 
@@ -8,3 +13,4 @@ end
 # return the array of two days
 
 stock_picker([17,3,6,9,15,8,6,1,10])
+
