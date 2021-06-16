@@ -6,7 +6,10 @@ def stock_picker(stock_prices)
   binding.pry
   
   stock_prices.each_with_index do |buy_price, buy_day|
-
+    stock_prices.each_with_index do |sell_price, sell_day|
+      
+      binding.pry
+    end
   end
   # the argument is an array of stock prices, one for each day
   # iterate through the array. 
