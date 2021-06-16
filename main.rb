@@ -1,9 +1,9 @@
 require 'pry'
 # create a method with one argument
 def stock_picker(stock_prices)
-  best_days = []
+  best_days = Array.new(2)
   best_profit = 0
-  
+
   binding.pry
   
   for i in stock_prices do
